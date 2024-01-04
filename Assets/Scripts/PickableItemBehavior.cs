@@ -7,6 +7,10 @@ public class PickableItemBehavior : MonoBehaviour
     [SerializeField] public string ItemName;
     private InventoryManage inventoryBox;
 
+    [SerializeField] private AudioSource audio;
+    private int numPlayed = 0;
+    [SerializeField] private int numActivations = 1;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,7 +24,16 @@ public class PickableItemBehavior : MonoBehaviour
     }
 
     void OnMouseDown(){
-        inventoryBox.DisplayItem(ItemName);
-        Destroy(gameObject);
+
+        // New logic
+        // Can press multiple times and play audio before sending to inventory
+        if (numPlayed < numActivations && audio != null) {
+            audio.Play();
+        }
+        numPlayed = numPlayed + 1;
+        if (numPlayed >= numActivations) {
+            inventoryBox.DisplayItem(ItemName);
+            Destroy(gameObject);
+        }
     }
 }
