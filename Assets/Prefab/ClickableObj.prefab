@@ -9,8 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4194227830720017733}
-  - component: {fileID: 8190167005292423058}
   - component: {fileID: 919834040086510225}
+  - component: {fileID: 8103306433107072460}
   m_Layer: 0
   m_Name: ClickableObj
   m_TagString: Untagged
@@ -33,19 +33,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8190167005292423058
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6406585187692120073}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62c65cb3574af42b8a336019683ad449, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectName: apple
 --- !u!58 &919834040086510225
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -81,3 +68,16 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!114 &8103306433107072460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6406585187692120073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d0ecdc5dea914e38bf5f159d6241c4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  my_go: {fileID: 0}
