@@ -5,10 +5,13 @@ using UnityEngine;
 public class DoorBehavior : MonoBehaviour
 {
     private ImageControl currentImage;
+    private InventoryManage inventoryBox;
+    [SerializeField] private int requiredKeys;
     // Start is called before the first frame update
     void Start()
     {
         currentImage = GameObject.Find("RoomImage").GetComponent<ImageControl>();
+        inventoryBox = GameObject.Find("Inventory").GetComponent<InventoryManage>();
     }
 
     // Update is called once per frame
@@ -18,6 +21,17 @@ public class DoorBehavior : MonoBehaviour
     }
 
     void OnMouseDown(){
-        currentImage.CurrentRoom = currentImage.CurrentRoom + 1;
+        if(ConditionPassed()){
+            inventoryBox.resetInventory();
+            currentImage.CurrentRoom = currentImage.CurrentRoom + 1;
+        }
+    }
+
+    bool ConditionPassed(){
+        Debug.Log(inventoryBox.currentSlot);
+        if (inventoryBox.currentSlot == requiredKeys-1) return true;
+        else {
+            return false;
+        }
     }
 }
