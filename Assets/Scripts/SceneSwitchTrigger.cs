@@ -23,11 +23,11 @@ public class SceneSwitchTrigger : MonoBehaviour
 
     void OnMouseOver()
     {
-        Debug.Log("HIGHLIGHTED");
+        //Debug.Log("HIGHLIGHTED");
     }
 
     void OnMouseExit()
     {
-        Debug.Log("UNHIGHLIGHTED");
+        //Debug.Log("UNHIGHLIGHTED");
     }
 }

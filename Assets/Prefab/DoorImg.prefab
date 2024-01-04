@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1466177943391402248}
   - component: {fileID: 2583763574129044275}
   - component: {fileID: 4006169085531240445}
-  - component: {fileID: 5688237396240847836}
+  - component: {fileID: 2451034029276915957}
   m_Layer: 0
   m_Name: DoorImg
   m_TagString: Untagged
@@ -132,7 +132,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.0767453, y: 3.394439}
   m_EdgeRadius: 0
---- !u!114 &5688237396240847836
+--- !u!114 &2451034029276915957
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -141,10 +141,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8999125143189536149}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7a9744f06c194236a41dfc6eeab2269, type: 3}
+  m_Script: {fileID: 11500000, guid: ec54cee470b1b40908f8192babfc409e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myScene: 
+  myScene: Room2
+  inventoryBox: {fileID: 0}
+  requiredKeys: 1
 --- !u!1 &9213091024233192553
 GameObject:
   m_ObjectHideFlags: 0
@@ -155,7 +157,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5118160151667117768}
   - component: {fileID: 5447423661816159995}
-  - component: {fileID: 1313577234809935048}
   m_Layer: 0
   m_Name: closed_door
   m_TagString: Untagged
@@ -230,15 +231,3 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1313577234809935048
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9213091024233192553}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec54cee470b1b40908f8192babfc409e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

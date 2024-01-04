@@ -1,17 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DoorBehavior : MonoBehaviour
 {
-    private ImageControl currentImage;
-    private InventoryManage inventoryBox;
+
+    [SerializeField] public string myScene;
+
+    //private ImageControl currentImage;
+    [SerializeField] private InventoryManage inventoryBox;
     [SerializeField] private int requiredKeys;
     // Start is called before the first frame update
     void Start()
     {
-        currentImage = GameObject.Find("RoomImage").GetComponent<ImageControl>();
-        inventoryBox = GameObject.Find("Inventory").GetComponent<InventoryManage>();
+        //currentImage = GameObject.Find("RoomImage").GetComponent<ImageControl>();
+        //inventoryBox = GameObject.Find("Inventory").GetComponent<InventoryManage>();
     }
 
     // Update is called once per frame
@@ -23,7 +27,8 @@ public class DoorBehavior : MonoBehaviour
     void OnMouseDown(){
         if(ConditionPassed()){
             inventoryBox.resetInventory();
-            currentImage.CurrentRoom = currentImage.CurrentRoom + 1;
+            //currentImage.CurrentRoom = currentImage.CurrentRoom + 1;
+            SceneManager.LoadScene(myScene);
         }
     }
 
