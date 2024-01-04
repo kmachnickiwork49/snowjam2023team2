@@ -3,11 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 //reference from: https://www.youtube.com/watch?v=HmHPJL-OcQE&t=572s
 
 public class Timer : MonoBehaviour
 {
+
+    [SerializeField] public string myScene;
+
     public float timeValue = 90;
     public TMP_Text _timeText;
     // Start is called before the first frame update
@@ -31,6 +35,12 @@ public class Timer : MonoBehaviour
         if (timeToDisplay <= 0) {
             timeToDisplay = 0;
             _timeText.text = "TIME'S UP!!";
+            
+            // Scene transition instantly, should have a delay in final product
+            if (myScene != "") {
+                SceneManager.LoadScene(myScene);
+            }
+
             return;
         }
 

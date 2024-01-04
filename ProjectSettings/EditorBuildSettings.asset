@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
+    path: Assets/Scenes/StartPage.unity
+    guid: 544e70d2c701e4b88a494934f398fb93
+  - enabled: 1
     path: Assets/Scenes/Room1.unity
     guid: 9d5040ff82dc642a8afe4e5ad8d749db
   - enabled: 1
@@ -17,4 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Room3.unity
     guid: f45598d4906b74f6e90168bd85fc9e0e
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: ff77832dfb3784bfb823cd86d1dd939b
+  - enabled: 1
+    path: Assets/Scenes/VictoryPage.unity
+    guid: 938b2a1352f0e4028a5277391509023d
   m_configObjects: {}

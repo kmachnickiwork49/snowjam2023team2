@@ -21,6 +21,11 @@ public class SceneSwitchTrigger : MonoBehaviour
         // Whenever you load a scene, it will be like the scene just started, progress should reset
     }
 
+    public void goNextScene() {
+        // For UI Button
+        SceneManager.LoadScene(myScene);
+    }
+
     void OnMouseOver()
     {
         //Debug.Log("HIGHLIGHTED");

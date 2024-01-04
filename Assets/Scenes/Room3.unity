@@ -1063,7 +1063,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2451034029276915957, guid: 26bc968192464453a8d980dbe4a1623c, type: 3}
       propertyPath: myScene
-      value: Room1
+      value: VictoryPage
       objectReference: {fileID: 0}
     - target: {fileID: 2451034029276915957, guid: 26bc968192464453a8d980dbe4a1623c, type: 3}
       propertyPath: inventoryBox
