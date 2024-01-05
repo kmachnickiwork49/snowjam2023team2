@@ -373,7 +373,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6406585187692120073, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1474158589}
   m_SourcePrefab: {fileID: 100100000, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
 --- !u!1 &158168343
 GameObject:
@@ -641,6 +644,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 2120853525}
   m_SourcePrefab: {fileID: 100100000, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
+--- !u!1 &204370134 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8999125143189536149, guid: 26bc968192464453a8d980dbe4a1623c, type: 3}
+  m_PrefabInstance: {fileID: 1656246618}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &204809992
 GameObject:
   m_ObjectHideFlags: 0
@@ -726,6 +734,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &224336247 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6406585187692120073, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
+  m_PrefabInstance: {fileID: 572064546}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &271600615 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6406585187692120073, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
@@ -788,6 +801,24 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &271600625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 271600615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bab0fcc8e708b4eba92ab75a96e25593, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: Aurora
+    sentences:
+    - 'Those are shelves. '
+    - "They seem to be collecting dust\u2026 "
+    - How often does this guy clean?
 --- !u!1 &352403947
 GameObject:
   m_ObjectHideFlags: 0
@@ -1009,6 +1040,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1963186345183792590, guid: 7f3c7a1a9fbe8452d83825c98c279328, type: 3}
   m_PrefabInstance: {fileID: 367346237}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &368345786 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6406585187692120073, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
+  m_PrefabInstance: {fileID: 1347693791}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &520804643 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4194227830720017733, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
@@ -1160,7 +1196,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6406585187692120073, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 708320838}
   m_SourcePrefab: {fileID: 100100000, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
 --- !u!1001 &594777426
 PrefabInstance:
@@ -1411,6 +1450,28 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4194227830720017733, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
   m_PrefabInstance: {fileID: 572064546}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &708320838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 224336247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bab0fcc8e708b4eba92ab75a96e25593, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: Aurora
+    sentences:
+    - 'There are books here. The titles are as follows:
+
+
+'
+    - "\u201CThe Cat in the Hat\u201D, \u201CDiary of a Wimpy Kid\u201D, "
+    - "\u201CHow to Poach 101\u201D, and \u201CThe Rainbow Fish\u201D "
+    - "\u2026 What is this guy\u2019s reading level?"
 --- !u!1001 &793716113
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1664,6 +1725,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 886807250}
   m_CullTransparentMesh: 1
+--- !u!1 &892689303 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6406585187692120073, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
+  m_PrefabInstance: {fileID: 1320199714}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &895846682
 GameObject:
   m_ObjectHideFlags: 0
@@ -1853,6 +1919,22 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4194227830720017733, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
   m_PrefabInstance: {fileID: 1347693791}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1093667023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 368345786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bab0fcc8e708b4eba92ab75a96e25593, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: Aurora
+    sentences:
+    - 'That is a table. '
 --- !u!1 &1196415873
 GameObject:
   m_ObjectHideFlags: 0
@@ -2068,7 +2150,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6406585187692120073, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2128010430}
   m_SourcePrefab: {fileID: 100100000, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
 --- !u!1 &1336982962
 GameObject:
@@ -2317,7 +2402,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6406585187692120073, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1093667023}
   m_SourcePrefab: {fileID: 100100000, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
 --- !u!1 &1370330272
 GameObject:
@@ -2505,6 +2593,27 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!1 &1474158584 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6406585187692120073, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
+  m_PrefabInstance: {fileID: 107204888}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1474158589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1474158584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bab0fcc8e708b4eba92ab75a96e25593, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: Aurora
+    sentences:
+    - Does he even read any of these?
 --- !u!224 &1575325513 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6301751811113487772, guid: 39ecb12bd96ea43b4b3944919fbcd863, type: 3}
@@ -2625,13 +2734,32 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8999125143189536149, guid: 26bc968192464453a8d980dbe4a1623c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1656246624}
   m_SourcePrefab: {fileID: 100100000, guid: 26bc968192464453a8d980dbe4a1623c, type: 3}
 --- !u!4 &1656246619 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1466177943391402248, guid: 26bc968192464453a8d980dbe4a1623c, type: 3}
   m_PrefabInstance: {fileID: 1656246618}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1656246624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 204370134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bab0fcc8e708b4eba92ab75a96e25593, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: Aurora
+    sentences:
+    - The kitchen door is locked. It needs a key.
 --- !u!1 &1678511146
 GameObject:
   m_ObjectHideFlags: 0
@@ -3014,6 +3142,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6406585187692120073, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
       insertIndex: -1
       addedObject: {fileID: 271600621}
+    - targetCorrespondingSourceObject: {fileID: 6406585187692120073, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 271600625}
   m_SourcePrefab: {fileID: 100100000, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
 --- !u!4 &2120853520 stripped
 Transform:
@@ -3035,12 +3166,31 @@ MonoBehaviour:
   dialogue:
     name: Aurora
     sentences:
-    - 'It seems like the Poacher is sleeping. It might be better to avoid his room. '
+    - It seems like the Poacher is sleeping.
+    - 'It might be better to avoid his room. '
 --- !u!4 &2128010425 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4194227830720017733, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
   m_PrefabInstance: {fileID: 1320199714}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2128010430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 892689303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bab0fcc8e708b4eba92ab75a96e25593, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: Aurora
+    sentences:
+    - '*creaks open* It looks like there are a couple of jackets here.'
+    - 'I guess he needs something to warm his cold heart. '
+    - There is something sticking out of one of the jacket pockets!
 --- !u!1001 &2145154436
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3423,17 +3573,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3145626050386226574, guid: 5fd2e382a8d1f40dbbd5fbbce2745896, type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3145626050386226574, guid: 5fd2e382a8d1f40dbbd5fbbce2745896, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3778124086898316107, guid: 5fd2e382a8d1f40dbbd5fbbce2745896, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -308.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3778124086898316107, guid: 5fd2e382a8d1f40dbbd5fbbce2745896, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 24.4
+      objectReference: {fileID: 0}
     - target: {fileID: 5776796765627439515, guid: 5fd2e382a8d1f40dbbd5fbbce2745896, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 500
+      value: 600
       objectReference: {fileID: 0}
     - target: {fileID: 5776796765627439515, guid: 5fd2e382a8d1f40dbbd5fbbce2745896, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -84
+      value: -88
       objectReference: {fileID: 0}
     - target: {fileID: 5776796765627439515, guid: 5fd2e382a8d1f40dbbd5fbbce2745896, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -14
+      value: -13
+      objectReference: {fileID: 0}
+    - target: {fileID: 6274743223103372151, guid: 5fd2e382a8d1f40dbbd5fbbce2745896, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 303.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6274743223103372151, guid: 5fd2e382a8d1f40dbbd5fbbce2745896, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -18.2
       objectReference: {fileID: 0}
     - target: {fileID: 6401625942781324554, guid: 5fd2e382a8d1f40dbbd5fbbce2745896, type: 3}
       propertyPath: animator
@@ -3452,12 +3626,28 @@ PrefabInstance:
       value: DialogueSystem
       objectReference: {fileID: 0}
     - target: {fileID: 7522684149451939072, guid: 5fd2e382a8d1f40dbbd5fbbce2745896, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 800
+      objectReference: {fileID: 0}
+    - target: {fileID: 7522684149451939072, guid: 5fd2e382a8d1f40dbbd5fbbce2745896, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 7522684149451939072, guid: 5fd2e382a8d1f40dbbd5fbbce2745896, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7522684149451939072, guid: 5fd2e382a8d1f40dbbd5fbbce2745896, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -500
+      objectReference: {fileID: 0}
+    - target: {fileID: 9217518522681700261, guid: 5fd2e382a8d1f40dbbd5fbbce2745896, type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9217518522681700261, guid: 5fd2e382a8d1f40dbbd5fbbce2745896, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
