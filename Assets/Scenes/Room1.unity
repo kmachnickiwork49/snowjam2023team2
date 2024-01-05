@@ -3609,6 +3609,10 @@ PrefabInstance:
       propertyPath: m_margin.z
       value: -0.4212036
       objectReference: {fileID: 0}
+    - target: {fileID: 3901316756799187970, guid: 39ecb12bd96ea43b4b3944919fbcd863, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5619877771752159670, guid: 39ecb12bd96ea43b4b3944919fbcd863, type: 3}
       propertyPath: m_SizeDelta.x
       value: 98.0846
