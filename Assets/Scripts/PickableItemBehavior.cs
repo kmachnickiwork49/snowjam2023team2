@@ -6,11 +6,13 @@ public class PickableItemBehavior : MonoBehaviour
 {
     [SerializeField] public string ItemName;
     private InventoryManage inventoryBox;
+    private HoverManager hoverManager;
 
     // Start is called before the first frame update
     void Start()
     {
         inventoryBox = GameObject.Find("Inventory").GetComponent<InventoryManage>();
+        hoverManager = GameObject.Find("HoverManager").GetComponent<HoverManager>();
     }
 
     // Update is called once per frame
@@ -20,7 +22,9 @@ public class PickableItemBehavior : MonoBehaviour
     }
 
     void OnMouseDown(){
-        inventoryBox.DisplayItem(ItemName);
-        Destroy(gameObject);
+        if(hoverManager.isHoverable){
+            inventoryBox.DisplayItem(ItemName);
+            Destroy(gameObject);
+        }
     }
 }
