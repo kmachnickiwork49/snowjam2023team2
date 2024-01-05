@@ -10,6 +10,12 @@ public class DialogueManager : MonoBehaviour
 
     public Animator animator;
     private Queue<string> sentences;
+    
+    private bool doHB = false;
+    [SerializeField] private GameObject roomToToggle;
+    [SerializeField] private GameObject hbToToggle;
+
+
     void Start()
     {
         sentences = new Queue<string>();
@@ -58,5 +64,15 @@ public class DialogueManager : MonoBehaviour
     void EndDialogue()
     {
         animator.SetBool("IsOpen", false);
+        if (doHB == true) {
+            Debug.Log("do hang bear");
+            roomToToggle.SetActive(false);
+            hbToToggle.SetActive(true);
+            doHB = false;
+        }
+    }
+
+    public void addHB(bool x) {
+        doHB = x;
     }
 }
