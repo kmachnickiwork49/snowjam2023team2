@@ -10,7 +10,7 @@ public class KeypadManager : MonoBehaviour
 
     void Start()
     {
-        hasAllKeys = true;
+        hasAllKeys = false;
         withoutKey = GameObject.Find("Keypad (without key)");
         withKey = GameObject.Find("Keypad (with key)");
     }

@@ -440,6 +440,18 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -17.6
       objectReference: {fileID: 0}
+    - target: {fileID: 6401625942781324554, guid: 5fd2e382a8d1f40dbbd5fbbce2745896, type: 3}
+      propertyPath: hang_mngr
+      value: 
+      objectReference: {fileID: 852044139}
+    - target: {fileID: 6401625942781324554, guid: 5fd2e382a8d1f40dbbd5fbbce2745896, type: 3}
+      propertyPath: hbToToggle
+      value: 
+      objectReference: {fileID: 1851945567}
+    - target: {fileID: 6401625942781324554, guid: 5fd2e382a8d1f40dbbd5fbbce2745896, type: 3}
+      propertyPath: roomToToggle
+      value: 
+      objectReference: {fileID: 191818697}
     - target: {fileID: 7067332889238112321, guid: 5fd2e382a8d1f40dbbd5fbbce2745896, type: 3}
       propertyPath: m_Name
       value: DialogueSystem
@@ -1573,6 +1585,8 @@ MonoBehaviour:
     name: Aurora
     sentences:
     - (missing dialogue?)
+  doHangBear: 0
+  src: 
 --- !u!1 &541018713 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6406585187692120073, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
@@ -1599,6 +1613,8 @@ MonoBehaviour:
     name: Aurora
     sentences:
     - Well we already found a strip of paper undearneath here.
+  doHangBear: 0
+  src: 
 --- !u!1 &576471993 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6406585187692120073, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
@@ -1625,6 +1641,8 @@ MonoBehaviour:
     name: Aurora
     sentences:
     - "*brief pause* I need to get out of here, I don\u2019t like this."
+  doHangBear: 0
+  src: 
 --- !u!1001 &577104894
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1797,6 +1815,8 @@ MonoBehaviour:
     - 'I feel like there is something here, '
     - 'but I do not know which I should choose. '
     - "Looking closer\u2026 It looks like there is a strip of paper here!"
+  doHangBear: 1
+  src: guns
 --- !u!1001 &595912458
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2203,6 +2223,8 @@ MonoBehaviour:
     sentences:
     - Hmmm it looks like there is a hole next to the fire.
     - 'It does not seem like I can do anything about that yet. '
+  doHangBear: 1
+  src: fireplace
 --- !u!1 &800785462 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6406585187692120073, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
@@ -2229,6 +2251,8 @@ MonoBehaviour:
     name: Aurora
     sentences:
     - I really don't want to be near those again.
+  doHangBear: 0
+  src: 
 --- !u!1 &820028170 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6406585187692120073, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
@@ -2255,6 +2279,8 @@ MonoBehaviour:
     name: Aurora
     sentences:
     - Oh nice! I can put the lever here!
+  doHangBear: 0
+  src: 
 --- !u!114 &832838083 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 892858010982272561, guid: 5fd2e382a8d1f40dbbd5fbbce2745896, type: 3}
@@ -2264,6 +2290,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bab0fcc8e708b4eba92ab75a96e25593, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &852044139 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4389123039113141741, guid: 76539de8698764fb5abaabcbe80dec95, type: 3}
+  m_PrefabInstance: {fileID: 1851945566}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a272d4761931c841b773376bbe3cf3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &902859768
@@ -2340,6 +2377,8 @@ MonoBehaviour:
     sentences:
     - Wow, I found all the papers needed!
     - Now I can finally escape!
+  doHangBear: 0
+  src: 
 --- !u!1001 &984364327
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2511,6 +2550,8 @@ MonoBehaviour:
     sentences:
     - I'm glad I found a strip of paper in there.
     - Still, those statues are scary.
+  doHangBear: 0
+  src: 
 --- !u!1 &1133964317
 GameObject:
   m_ObjectHideFlags: 0
@@ -2786,6 +2827,8 @@ MonoBehaviour:
     name: Aurora
     sentences:
     - I can't exit now, it'll trigger the alarm.
+  doHangBear: 0
+  src: 
 --- !u!1001 &1220179911
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3083,6 +3126,8 @@ MonoBehaviour:
       1966'
     - "There might be something in one of them. However, I should not make too much
       noise. I don't want to wake up the poacher\u2026"
+  doHangBear: 1
+  src: trophies
 --- !u!1001 &1248050608
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3964,6 +4009,212 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2939073830599392824, guid: 5fd2e382a8d1f40dbbd5fbbce2745896, type: 3}
   m_PrefabInstance: {fileID: 134645573}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1851945566
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2369493429804609487, guid: 76539de8698764fb5abaabcbe80dec95, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2369493429804609487, guid: 76539de8698764fb5abaabcbe80dec95, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2369493429804609487, guid: 76539de8698764fb5abaabcbe80dec95, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 916.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 2369493429804609487, guid: 76539de8698764fb5abaabcbe80dec95, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -48.519955
+      objectReference: {fileID: 0}
+    - target: {fileID: 3375666917922750961, guid: 76539de8698764fb5abaabcbe80dec95, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3375666917922750961, guid: 76539de8698764fb5abaabcbe80dec95, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3375666917922750961, guid: 76539de8698764fb5abaabcbe80dec95, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3375666917922750961, guid: 76539de8698764fb5abaabcbe80dec95, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3375666917922750961, guid: 76539de8698764fb5abaabcbe80dec95, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3375666917922750961, guid: 76539de8698764fb5abaabcbe80dec95, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3375666917922750961, guid: 76539de8698764fb5abaabcbe80dec95, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3375666917922750961, guid: 76539de8698764fb5abaabcbe80dec95, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3375666917922750961, guid: 76539de8698764fb5abaabcbe80dec95, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3375666917922750961, guid: 76539de8698764fb5abaabcbe80dec95, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3375666917922750961, guid: 76539de8698764fb5abaabcbe80dec95, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3375666917922750961, guid: 76539de8698764fb5abaabcbe80dec95, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3375666917922750961, guid: 76539de8698764fb5abaabcbe80dec95, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3375666917922750961, guid: 76539de8698764fb5abaabcbe80dec95, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3375666917922750961, guid: 76539de8698764fb5abaabcbe80dec95, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3375666917922750961, guid: 76539de8698764fb5abaabcbe80dec95, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3375666917922750961, guid: 76539de8698764fb5abaabcbe80dec95, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3375666917922750961, guid: 76539de8698764fb5abaabcbe80dec95, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3375666917922750961, guid: 76539de8698764fb5abaabcbe80dec95, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3375666917922750961, guid: 76539de8698764fb5abaabcbe80dec95, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4389123039113141741, guid: 76539de8698764fb5abaabcbe80dec95, type: 3}
+      propertyPath: firemngr
+      value: 
+      objectReference: {fileID: 1786072677}
+    - target: {fileID: 4389123039113141741, guid: 76539de8698764fb5abaabcbe80dec95, type: 3}
+      propertyPath: gun_mngr
+      value: 
+      objectReference: {fileID: 1382873281}
+    - target: {fileID: 4389123039113141741, guid: 76539de8698764fb5abaabcbe80dec95, type: 3}
+      propertyPath: key_mngr
+      value: 
+      objectReference: {fileID: 1678987768}
+    - target: {fileID: 4389123039113141741, guid: 76539de8698764fb5abaabcbe80dec95, type: 3}
+      propertyPath: door_mngr
+      value: 
+      objectReference: {fileID: 1395464438}
+    - target: {fileID: 4389123039113141741, guid: 76539de8698764fb5abaabcbe80dec95, type: 3}
+      propertyPath: fire_mngr
+      value: 
+      objectReference: {fileID: 1786072677}
+    - target: {fileID: 4389123039113141741, guid: 76539de8698764fb5abaabcbe80dec95, type: 3}
+      propertyPath: hbToToggle
+      value: 
+      objectReference: {fileID: 1851945567}
+    - target: {fileID: 4389123039113141741, guid: 76539de8698764fb5abaabcbe80dec95, type: 3}
+      propertyPath: throne_mngr
+      value: 
+      objectReference: {fileID: 902859770}
+    - target: {fileID: 4389123039113141741, guid: 76539de8698764fb5abaabcbe80dec95, type: 3}
+      propertyPath: roomToToggle
+      value: 
+      objectReference: {fileID: 191818697}
+    - target: {fileID: 4389123039113141741, guid: 76539de8698764fb5abaabcbe80dec95, type: 3}
+      propertyPath: trophies_mngr
+      value: 
+      objectReference: {fileID: 1133964319}
+    - target: {fileID: 6943599760382433339, guid: 76539de8698764fb5abaabcbe80dec95, type: 3}
+      propertyPath: m_Name
+      value: HangBearPrefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 6943599760382433339, guid: 76539de8698764fb5abaabcbe80dec95, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7264654640127857487, guid: 76539de8698764fb5abaabcbe80dec95, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7264654640127857487, guid: 76539de8698764fb5abaabcbe80dec95, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7264654640127857487, guid: 76539de8698764fb5abaabcbe80dec95, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 1116.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 7264654640127857487, guid: 76539de8698764fb5abaabcbe80dec95, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -48.519955
+      objectReference: {fileID: 0}
+    - target: {fileID: 7285688222527296768, guid: 76539de8698764fb5abaabcbe80dec95, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7285688222527296768, guid: 76539de8698764fb5abaabcbe80dec95, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7285688222527296768, guid: 76539de8698764fb5abaabcbe80dec95, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 1016.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 7285688222527296768, guid: 76539de8698764fb5abaabcbe80dec95, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -48.519955
+      objectReference: {fileID: 0}
+    - target: {fileID: 9105295301756116370, guid: 76539de8698764fb5abaabcbe80dec95, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9105295301756116370, guid: 76539de8698764fb5abaabcbe80dec95, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9105295301756116370, guid: 76539de8698764fb5abaabcbe80dec95, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 816.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 9105295301756116370, guid: 76539de8698764fb5abaabcbe80dec95, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -48.519955
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 76539de8698764fb5abaabcbe80dec95, type: 3}
+--- !u!1 &1851945567 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6943599760382433339, guid: 76539de8698764fb5abaabcbe80dec95, type: 3}
+  m_PrefabInstance: {fileID: 1851945566}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1903221542
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4136,6 +4387,8 @@ MonoBehaviour:
     - "It\u2019s almost morning and the poacher can wake up at any point!"
     - "It looks like there are a couple colors in this order here\u2026 "
     - green, red, blue.
+  doHangBear: 0
+  src: keypad
 --- !u!1001 &1941247585
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4306,6 +4559,8 @@ MonoBehaviour:
     name: Aurora
     sentences:
     - "Trophies from previous hunts. I hope I don\u2019t end up like that\u2026"
+  doHangBear: 0
+  src: 
 --- !u!1001 &1959895960
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4847,6 +5102,8 @@ MonoBehaviour:
     name: Aurora
     sentences:
     - Yes! I can escape now!
+  doHangBear: 0
+  src: 
 --- !u!1 &2098681688 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6406585187692120073, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
@@ -4874,6 +5131,8 @@ MonoBehaviour:
     sentences:
     - There's a pillow on this...
     - There's something underneath it!
+  doHangBear: 1
+  src: throne
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -4883,3 +5142,4 @@ SceneRoots:
   - {fileID: 217478276}
   - {fileID: 134645573}
   - {fileID: 269535198}
+  - {fileID: 1851945566}

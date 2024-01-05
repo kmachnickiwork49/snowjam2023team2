@@ -18,6 +18,15 @@ public class HangmanController : MonoBehaviour
     [SerializeField] private GameObject roomToToggle;
     [SerializeField] private GameObject hbToToggle;
 
+
+    [SerializeField] private FireplaceManage fire_mngr;
+    [SerializeField] private KeypadManager key_mngr;
+    [SerializeField] private ThroneManager throne_mngr;
+    [SerializeField] private TrophiesRightManager trophies_mngr;
+    [SerializeField] private GunsManager gun_mngr;
+    [SerializeField] private DoorManager door_mngr;
+    public string src = "";
+
     private string word;
     private int incorrectGuesses, correctGuesses;
 
@@ -130,6 +139,25 @@ public class HangmanController : MonoBehaviour
     private void WinReturn() {
         roomToToggle.SetActive(true);
         Debug.Log("won hb");
+
+        if (src == "fireplace") {
+            fire_mngr.fireOn = false;
+        } else if (src == "throne") {
+            throne_mngr.hasPlayedHangBear = true;
+        } else if (src == "guns") {
+            gun_mngr.hasPlayedHangBear = true;
+        } else if (src == "trophies") {
+            trophies_mngr.hasPlayedHangBear = true;
+        }
+
+        if (fire_mngr.fireOn == false && throne_mngr.hasPlayedHangBear && gun_mngr.hasPlayedHangBear && trophies_mngr.hasPlayedHangBear) {
+            key_mngr.hasAllKeys = true;
+        } 
+
+        if (key_mngr.hasAllKeys == true) {
+            door_mngr.isAlarmOff = true;
+        }
+
         Invoke("InitializeGame", 3f); // Waits three seconds to call InitializeGame()
         hbToToggle.SetActive(false);
     }

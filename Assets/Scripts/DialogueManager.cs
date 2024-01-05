@@ -14,6 +14,7 @@ public class DialogueManager : MonoBehaviour
     private bool doHB = false;
     [SerializeField] private GameObject roomToToggle;
     [SerializeField] private GameObject hbToToggle;
+    [SerializeField] private HangmanController hang_mngr;
 
 
     void Start()
@@ -72,7 +73,8 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
-    public void addHB(bool x) {
+    public void addHB(bool x, string y) {
         doHB = x;
+        hang_mngr.src = y;
     }
 }
