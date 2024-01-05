@@ -2015,6 +2015,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: TimerSystem
       objectReference: {fileID: 0}
+    - target: {fileID: 2217597378668115502, guid: 39ecb12bd96ea43b4b3944919fbcd863, type: 3}
+      propertyPath: timeValue
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5619877771752159670, guid: 39ecb12bd96ea43b4b3944919fbcd863, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -304
+      objectReference: {fileID: 0}
+    - target: {fileID: 5619877771752159670, guid: 39ecb12bd96ea43b4b3944919fbcd863, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 211.75
+      objectReference: {fileID: 0}
     - target: {fileID: 7032384985909059897, guid: 39ecb12bd96ea43b4b3944919fbcd863, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.12978727
