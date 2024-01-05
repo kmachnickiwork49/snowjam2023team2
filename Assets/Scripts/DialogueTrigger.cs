@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class DialogueTrigger : MonoBehaviour
 {
-  public Dialogue dialogue;
+  private Dialogue dialogue;
+  [SerializeField] private DialogueSet currentSet;
 
   public void OnMouseDown ()
   {
+    dialogue = currentSet.dialogueSet[currentSet.whichSet];
     FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
   }
 }

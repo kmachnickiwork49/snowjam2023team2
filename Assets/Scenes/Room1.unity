@@ -813,12 +813,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab0fcc8e708b4eba92ab75a96e25593, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue:
-    name: Aurora
+  currentSet: {fileID: 271600626}
+--- !u!114 &271600626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 271600615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94652b450db6d48e1b7b75ba8bd35a1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nSet: 2
+  whichSet: 0
+  dialogueSet:
+  - name: Aurora
     sentences:
-    - 'Those are shelves. '
-    - "They seem to be collecting dust\u2026 "
-    - How often does this guy clean?
+    - This is set 0.
+  - name: Aurora
+    sentences:
+    - This is set 1.
 --- !u!1 &352403947
 GameObject:
   m_ObjectHideFlags: 0
@@ -1451,16 +1467,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab0fcc8e708b4eba92ab75a96e25593, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue:
-    name: Aurora
-    sentences:
-    - 'There are books here. The titles are as follows:
-
-
-'
-    - "\u201CThe Cat in the Hat\u201D, \u201CDiary of a Wimpy Kid\u201D, "
-    - "\u201CHow to Poach 101\u201D, and \u201CThe Rainbow Fish\u201D "
-    - "\u2026 What is this guy\u2019s reading level?"
+  currentSet: {fileID: 0}
 --- !u!1001 &793716113
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1920,10 +1927,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab0fcc8e708b4eba92ab75a96e25593, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue:
-    name: Aurora
-    sentences:
-    - 'That is a table. '
+  currentSet: {fileID: 0}
 --- !u!1 &1093971952 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6406585187692120073, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
@@ -2146,10 +2150,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab0fcc8e708b4eba92ab75a96e25593, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue:
-    name: Aurora
-    sentences:
-    - There needs to be a pin to unlock the computer.
+  currentSet: {fileID: 0}
 --- !u!1 &1273038555 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 156335849997432504, guid: 39ecb12bd96ea43b4b3944919fbcd863, type: 3}
@@ -2757,10 +2758,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab0fcc8e708b4eba92ab75a96e25593, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue:
-    name: Aurora
-    sentences:
-    - Does he even read any of these?
+  currentSet: {fileID: 0}
 --- !u!224 &1575325513 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6301751811113487772, guid: 39ecb12bd96ea43b4b3944919fbcd863, type: 3}
@@ -2903,10 +2901,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab0fcc8e708b4eba92ab75a96e25593, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue:
-    name: Aurora
-    sentences:
-    - The kitchen door is locked. It needs a key.
+  currentSet: {fileID: 0}
 --- !u!1 &1678511146
 GameObject:
   m_ObjectHideFlags: 0
@@ -3292,6 +3287,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6406585187692120073, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
       insertIndex: -1
       addedObject: {fileID: 271600625}
+    - targetCorrespondingSourceObject: {fileID: 6406585187692120073, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 271600626}
   m_SourcePrefab: {fileID: 100100000, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
 --- !u!4 &2120853520 stripped
 Transform:
@@ -3310,11 +3308,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab0fcc8e708b4eba92ab75a96e25593, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue:
-    name: Aurora
-    sentences:
-    - It seems like the Poacher is sleeping.
-    - 'It might be better to avoid his room. '
+  currentSet: {fileID: 0}
 --- !u!4 &2128010425 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4194227830720017733, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
@@ -3332,12 +3326,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab0fcc8e708b4eba92ab75a96e25593, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue:
-    name: Aurora
-    sentences:
-    - '*creaks open* It looks like there are a couple of jackets here.'
-    - 'I guess he needs something to warm his cold heart. '
-    - There is something sticking out of one of the jacket pockets!
+  currentSet: {fileID: 0}
 --- !u!1001 &3911135861609643870
 PrefabInstance:
   m_ObjectHideFlags: 0
