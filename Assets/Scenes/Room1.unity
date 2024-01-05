@@ -267,6 +267,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 4cbd388801b9045dab812ad2aad49b61, type: 3}
     - target: {fileID: -8717462600197914229, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
+      propertyPath: m_SortingLayer
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8717462600197914229, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 815491729
+      objectReference: {fileID: 0}
+    - target: {fileID: -8717462600197914229, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
       propertyPath: m_WasSpriteAssigned
       value: 1
       objectReference: {fileID: 0}
@@ -1885,7 +1893,7 @@ Transform:
   - {fileID: 1656246619}
   - {fileID: 271600616}
   - {fileID: 2128010425}
-  - {fileID: 1093667018}
+  - {fileID: 1211237387}
   - {fileID: 708320833}
   - {fileID: 2120853520}
   - {fileID: 821526607}
@@ -1894,7 +1902,7 @@ Transform:
   - {fileID: 1370330275}
   - {fileID: 1394171891}
   - {fileID: 1040569372}
-  - {fileID: 1211237387}
+  - {fileID: 1093667018}
   - {fileID: 520804643}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2019,11 +2027,11 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 7fa7ac02a661d4b40a583534292fea00, type: 3}
     - target: {fileID: -8717462600197914229, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
       propertyPath: m_SortingLayer
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8717462600197914229, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
       propertyPath: m_SortingLayerID
-      value: 0
+      value: 1130552587
       objectReference: {fileID: 0}
     - target: {fileID: -8717462600197914229, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
       propertyPath: m_WasSpriteAssigned
