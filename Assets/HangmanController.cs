@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class HangmanController : MonoBehaviour
 {
@@ -12,6 +13,10 @@ public class HangmanController : MonoBehaviour
     [SerializeField] GameObject[] hangmanStages;
     [SerializeField] GameObject letterButton;
     [SerializeField] TextAsset possibleWord;
+
+
+    [SerializeField] private GameObject roomToToggle;
+    [SerializeField] private GameObject hbToToggle;
 
     private string word;
     private int incorrectGuesses, correctGuesses;
@@ -99,7 +104,11 @@ public class HangmanController : MonoBehaviour
             {
                 wordContainer.GetComponentsInChildren<TextMeshProUGUI>()[i].color = Color.green;
             }
-            Invoke("InitializeGame", 3f); // Waits three seconds to call InitializeGame()
+            if (roomToToggle != null) {
+                Invoke("WinReturn", 3f);
+            } else {
+                Invoke("InitializeGame", 3f); // Waits three seconds to call InitializeGame()
+            }
         }
 
         if(incorrectGuesses == hangmanStages.Length) //lose
@@ -109,9 +118,25 @@ public class HangmanController : MonoBehaviour
                 wordContainer.GetComponentsInChildren<TextMeshProUGUI>()[i].color = Color.red;
                 wordContainer.GetComponentsInChildren<TextMeshProUGUI>()[i].text = word[i].ToString();
             }
-            Invoke("InitializeGame", 3f); // Waits three seconds to call InitializeGame()
+            if (roomToToggle != null) {
+                Invoke("LoseReturn", 3f);
+            } else {
+                Invoke("InitializeGame", 3f); // Waits three seconds to call InitializeGame()
+            }
 
         }
+    }
+
+    private void WinReturn() {
+        roomToToggle.SetActive(true);
+        Debug.Log("won hb");
+        hbToToggle.SetActive(false);
+    }
+
+    private void LoseReturn() {
+        roomToToggle.SetActive(true);
+        Debug.Log("lost hb");
+        hbToToggle.SetActive(false);
     }
 
 }
