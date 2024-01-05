@@ -179,6 +179,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7ec6df1c61bb4fb0ba99cd5d037e7fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  myScene: GameOver
   timeValue: 10
   _timeText: {fileID: 2613397754453430622}
 --- !u!1 &7584453129755339977
