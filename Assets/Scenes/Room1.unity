@@ -465,6 +465,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &273784686 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6956641467774695194, guid: 60c0e4be9b27e415b90f2fc876c8841a, type: 3}
+  m_PrefabInstance: {fileID: 821526606}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &352403947
 GameObject:
   m_ObjectHideFlags: 0
@@ -981,16 +986,32 @@ PrefabInstance:
       propertyPath: m_Name
       value: Key
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4611948932693075320, guid: 60c0e4be9b27e415b90f2fc876c8841a, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6956641467774695194, guid: 60c0e4be9b27e415b90f2fc876c8841a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 821526611}
   m_SourcePrefab: {fileID: 100100000, guid: 60c0e4be9b27e415b90f2fc876c8841a, type: 3}
 --- !u!4 &821526607 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6175369200443170309, guid: 60c0e4be9b27e415b90f2fc876c8841a, type: 3}
   m_PrefabInstance: {fileID: 821526606}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &821526611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 273784686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e0329cf70cd14f35853d208580ef578, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &895846682
 GameObject:
   m_ObjectHideFlags: 0
@@ -1435,25 +1456,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 927823199}
     m_Modifications:
-    - target: {fileID: 1313577234809935048, guid: 26bc968192464453a8d980dbe4a1623c, type: 3}
-      propertyPath: myScene
-      value: Room2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1313577234809935048, guid: 26bc968192464453a8d980dbe4a1623c, type: 3}
-      propertyPath: inventoryBox
-      value: 
-      objectReference: {fileID: 95191422}
-    - target: {fileID: 1313577234809935048, guid: 26bc968192464453a8d980dbe4a1623c, type: 3}
-      propertyPath: requiredKeys
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1466177943391402248, guid: 26bc968192464453a8d980dbe4a1623c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.060290314
+      value: -0.24
       objectReference: {fileID: 0}
     - target: {fileID: 1466177943391402248, guid: 26bc968192464453a8d980dbe4a1623c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.06772314
+      value: -0.79
       objectReference: {fileID: 0}
     - target: {fileID: 1466177943391402248, guid: 26bc968192464453a8d980dbe4a1623c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1491,9 +1500,49 @@ PrefabInstance:
       propertyPath: inventoryBox
       value: 
       objectReference: {fileID: 95191422}
-    - target: {fileID: 5688237396240847836, guid: 26bc968192464453a8d980dbe4a1623c, type: 3}
-      propertyPath: myScene
-      value: Room2
+    - target: {fileID: 2583763574129044275, guid: 26bc968192464453a8d980dbe4a1623c, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3ed395b50ec174e5db19df36e3f5f15b, type: 3}
+    - target: {fileID: 2583763574129044275, guid: 26bc968192464453a8d980dbe4a1623c, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2583763574129044275, guid: 26bc968192464453a8d980dbe4a1623c, type: 3}
+      propertyPath: m_Color.b
+      value: 0.9622642
+      objectReference: {fileID: 0}
+    - target: {fileID: 2583763574129044275, guid: 26bc968192464453a8d980dbe4a1623c, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9622642
+      objectReference: {fileID: 0}
+    - target: {fileID: 2583763574129044275, guid: 26bc968192464453a8d980dbe4a1623c, type: 3}
+      propertyPath: m_Color.r
+      value: 0.9622642
+      objectReference: {fileID: 0}
+    - target: {fileID: 4006169085531240445, guid: 26bc968192464453a8d980dbe4a1623c, type: 3}
+      propertyPath: m_Size.x
+      value: 2.2159526
+      objectReference: {fileID: 0}
+    - target: {fileID: 4006169085531240445, guid: 26bc968192464453a8d980dbe4a1623c, type: 3}
+      propertyPath: m_Size.y
+      value: 3.5684483
+      objectReference: {fileID: 0}
+    - target: {fileID: 4006169085531240445, guid: 26bc968192464453a8d980dbe4a1623c, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.0121353865
+      objectReference: {fileID: 0}
+    - target: {fileID: 4006169085531240445, guid: 26bc968192464453a8d980dbe4a1623c, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.00082433224
+      objectReference: {fileID: 0}
+    - target: {fileID: 4006169085531240445, guid: 26bc968192464453a8d980dbe4a1623c, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4006169085531240445, guid: 26bc968192464453a8d980dbe4a1623c, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 3.6
       objectReference: {fileID: 0}
     - target: {fileID: 8999125143189536149, guid: 26bc968192464453a8d980dbe4a1623c, type: 3}
       propertyPath: m_Name
