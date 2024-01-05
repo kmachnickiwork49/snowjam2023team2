@@ -140,21 +140,21 @@ public class HangmanController : MonoBehaviour
         roomToToggle.SetActive(true);
         Debug.Log("won hb");
 
-        if (src == "fireplace") {
+        if (src == "fireplace" && fire_mngr != null) {
             fire_mngr.fireOn = false;
-        } else if (src == "throne") {
+        } else if (src == "throne" && throne_mngr != null) {
             throne_mngr.hasPlayedHangBear = true;
-        } else if (src == "guns") {
+        } else if (src == "guns" && gun_mngr != null) {
             gun_mngr.hasPlayedHangBear = true;
-        } else if (src == "trophies") {
+        } else if (src == "trophies" && trophies_mngr != null) {
             trophies_mngr.hasPlayedHangBear = true;
         }
 
-        if (fire_mngr.fireOn == false && throne_mngr.hasPlayedHangBear && gun_mngr.hasPlayedHangBear && trophies_mngr.hasPlayedHangBear) {
+        if (key_mngr != null && fire_mngr != null && throne_mngr != null && gun_mngr != null && trophies_mngr != null && fire_mngr.fireOn == false && throne_mngr.hasPlayedHangBear && gun_mngr.hasPlayedHangBear && trophies_mngr.hasPlayedHangBear) {
             key_mngr.hasAllKeys = true;
         } 
 
-        if (key_mngr.hasAllKeys == true) {
+        if (key_mngr != null && door_mngr != null && key_mngr.hasAllKeys == true) {
             door_mngr.isAlarmOff = true;
         }
 
