@@ -14,8 +14,8 @@ PlayerSettings:
   accelerometerFrequency: 60
   companyName: DefaultCompany
   productName: Escape Room Test
-  defaultCursor: {fileID: 2800000, guid: 5c9a83ea6923e47e1919515d2ad2785b, type: 3}
-  cursorHotspot: {x: 32, y: 0}
+  defaultCursor: {fileID: 2800000, guid: dd2b7a7cabd034b85b029cbc3b2cbb82, type: 3}
+  cursorHotspot: {x: 16, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
   m_ShowUnitySplashScreen: 1
   m_ShowUnitySplashLogo: 1
