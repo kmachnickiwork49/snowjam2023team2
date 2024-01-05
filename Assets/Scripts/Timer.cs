@@ -12,21 +12,30 @@ public class Timer : MonoBehaviour
 
     [SerializeField] public string myScene;
 
-    public float timeValue = 90;
-    public TMP_Text _timeText;
+    [SerializeField] public float INITIAL_TIME_VALUE = 90f;
+    [SerializeField] private TMP_Text _timeText;
+    [SerializeField] private bool clockRunning;
+    private float timeValue;
     // Start is called before the first frame update
     void Start()
     {
-        //timeValue = 90f;
+        clockRunning = true; // PLEASE CHANGE AS NECESSARY
+        timeValue = INITIAL_TIME_VALUE;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (timeValue > 0){
-            timeValue -= Time.deltaTime;
-        }else {
-            timeValue = 0;
+        if (clockRunning)
+        {
+            if (timeValue > 0)
+            {
+                timeValue -= Time.deltaTime;
+            }
+            else
+            {
+                timeValue = 0;
+            }
         }
         DisplayTime(timeValue);
     }
@@ -34,7 +43,7 @@ public class Timer : MonoBehaviour
     void DisplayTime(float timeToDisplay){
         if (timeToDisplay <= 0) {
             timeToDisplay = 0;
-            _timeText.text = "TIME'S UP!!";
+            _timeText.text = "TIME'S UP!!"; // PLEASE CHANGE AS NECESSARY
             
             // Scene transition instantly, should have a delay in final product
             if (myScene != "") {
@@ -49,4 +58,42 @@ public class Timer : MonoBehaviour
 
         _timeText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
     }
+
+    public void SetTimeToZero()
+    {
+        timeValue = 0;
+    }
+
+    public void AddTimeToTimer(float additionalTime)
+    {
+        timeValue += additionalTime;
+    }
+
+    public void ResetTime()
+    {
+        timeValue = INITIAL_TIME_VALUE;
+    }
+
+    public void resumeClock()
+    {
+        clockRunning = true;
+    }
+
+    public void stopClock()
+    {
+        clockRunning = false;
+    }
+
+    public int getMinutes()
+    {
+        float minutes = Mathf.FloorToInt(timeValue / 60);
+        return (int)minutes;
+    }
+
+    public int getSeconds()
+    {
+        float seconds = Mathf.FloorToInt(timeValue % 60);
+        return (int)seconds;
+    }
+
 }
