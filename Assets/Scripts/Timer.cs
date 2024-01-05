@@ -39,6 +39,9 @@ public class Timer : MonoBehaviour
                 timeValue = 0;
             }
         }
+        if (SceneManager.GetActiveScene().name == "VictoryPage") {
+            stopClock();
+        }
         DisplayTime(timeValue);
     }
 
