@@ -14,17 +14,23 @@ public class ShowZoomedImage : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        my_go.SetActive(false);
+        if (my_go != null) {
+            my_go.SetActive(false);
+        }
     }
 
     void OnMouseDown()
     {
         Debug.Log("BUTTON PRESSED");
-        my_go.SetActive(true);
+        if (my_go != null) {
+            my_go.SetActive(true);
+        }
     }
 
     public void SwitchActive() {
-        my_go.SetActive(!(my_go.activeSelf));
+        if (my_go != null) {
+            my_go.SetActive(!(my_go.activeSelf));
+        }
     }
 
 }
