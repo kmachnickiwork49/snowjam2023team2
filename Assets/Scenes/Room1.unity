@@ -1907,6 +1907,7 @@ Transform:
   - {fileID: 1394171891}
   - {fileID: 1040569372}
   - {fileID: 1211237387}
+  - {fileID: 520804643}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1040569372 stripped
@@ -1935,6 +1936,11 @@ MonoBehaviour:
     name: Aurora
     sentences:
     - 'That is a table. '
+--- !u!1 &1093971952 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6406585187692120073, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
+  m_PrefabInstance: {fileID: 1211237386}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1196415873
 GameObject:
   m_ObjectHideFlags: 0
@@ -2130,13 +2136,32 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6406585187692120073, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1211237392}
   m_SourcePrefab: {fileID: 100100000, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
 --- !u!4 &1211237387 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4194227830720017733, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
   m_PrefabInstance: {fileID: 1211237386}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1211237392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1093971952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bab0fcc8e708b4eba92ab75a96e25593, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: Aurora
+    sentences:
+    - There needs to be a pin to unlock the computer.
 --- !u!1 &1273038555 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 156335849997432504, guid: 39ecb12bd96ea43b4b3944919fbcd863, type: 3}
