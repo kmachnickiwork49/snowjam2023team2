@@ -1,0 +1,11 @@
+bear 
+polar 
+icicle 
+snowflake 
+glacier 
+aurora 
+arctic 
+frozen 
+endangered 
+penguin 
+iceberg 
