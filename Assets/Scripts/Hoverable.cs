@@ -6,10 +6,17 @@ public class Hoverable : MonoBehaviour
 {
     // Start is called before the first frame update
     private Color32 startColor;
+    private HoverManager hoverCheck;
+
+    void Start(){
+        hoverCheck = GameObject.Find("HoverManager").GetComponent<HoverManager>();
+    }
 
     void OnMouseEnter(){
         startColor = GetComponent<SpriteRenderer>().color;
-        GetComponent<SpriteRenderer>().color = new Color32(255, 213, 213, 255); //a tad red
+        if(hoverCheck.isHoverable){
+            GetComponent<SpriteRenderer>().color = new Color32(255, 213, 213, 255); //a tad red
+        }
     }
 
     void OnMouseExit(){

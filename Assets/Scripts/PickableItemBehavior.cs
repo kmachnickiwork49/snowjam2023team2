@@ -6,6 +6,7 @@ public class PickableItemBehavior : MonoBehaviour
 {
     [SerializeField] public string ItemName;
     private InventoryManage inventoryBox;
+    private HoverManager hoverManager;
 
     [SerializeField] private AudioSource audio;
     private int numPlayed = 0;
@@ -15,6 +16,7 @@ public class PickableItemBehavior : MonoBehaviour
     void Start()
     {
         inventoryBox = GameObject.Find("Inventory").GetComponent<InventoryManage>();
+        hoverManager = GameObject.Find("HoverManager").GetComponent<HoverManager>();
     }
 
     // Update is called once per frame
@@ -24,7 +26,6 @@ public class PickableItemBehavior : MonoBehaviour
     }
 
     void OnMouseDown(){
-
         // New logic
         // Can press multiple times and play audio before sending to inventory
         if (numPlayed < numActivations && audio != null) {

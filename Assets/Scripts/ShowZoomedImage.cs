@@ -6,6 +6,10 @@ public class ShowZoomedImage : MonoBehaviour
 {
 
     [SerializeField] private GameObject my_go;
+    public GameObject go_object{
+        get{return my_go;}
+        set{}
+    }
 
     // Start is called before the first frame update
     void Start()
