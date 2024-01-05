@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class FireplaceManage : MonoBehaviour
 {
-    private GameObject onFire, offFire;
     [SerializeField] public bool fireOn;
-    // Start is called before the first frame update
+    [SerializeField] GameObject onFire;
+    [SerializeField] GameObject offFire;
+
     void Start()
     {
         fireOn = true;
