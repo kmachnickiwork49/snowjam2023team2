@@ -3598,12 +3598,16 @@ PrefabInstance:
       value: TimerSystem
       objectReference: {fileID: 0}
     - target: {fileID: 2217597378668115502, guid: 39ecb12bd96ea43b4b3944919fbcd863, type: 3}
+      propertyPath: tim_sys
+      value: 
+      objectReference: {fileID: 1273038555}
+    - target: {fileID: 2217597378668115502, guid: 39ecb12bd96ea43b4b3944919fbcd863, type: 3}
       propertyPath: timeValue
       value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 2217597378668115502, guid: 39ecb12bd96ea43b4b3944919fbcd863, type: 3}
       propertyPath: INITIAL_TIME_VALUE
-      value: 300
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 2613397754453430622, guid: 39ecb12bd96ea43b4b3944919fbcd863, type: 3}
       propertyPath: m_margin.z

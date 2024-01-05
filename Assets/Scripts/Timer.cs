@@ -10,6 +10,8 @@ using UnityEngine.SceneManagement;
 public class Timer : MonoBehaviour
 {
 
+    [SerializeField] private GameObject tim_sys;
+
     [SerializeField] public string myScene;
 
     [SerializeField] public float INITIAL_TIME_VALUE = 90f;
@@ -49,6 +51,8 @@ public class Timer : MonoBehaviour
             if (myScene != "") {
                 SceneManager.LoadScene(myScene);
             }
+
+            Destroy(tim_sys);
 
             return;
         }
