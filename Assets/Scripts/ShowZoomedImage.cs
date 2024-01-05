@@ -23,4 +23,8 @@ public class ShowZoomedImage : MonoBehaviour
         my_go.SetActive(true);
     }
 
+    public void SwitchActive() {
+        my_go.SetActive(!(my_go.activeSelf));
+    }
+
 }
