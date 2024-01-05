@@ -130,12 +130,14 @@ public class HangmanController : MonoBehaviour
     private void WinReturn() {
         roomToToggle.SetActive(true);
         Debug.Log("won hb");
+        Invoke("InitializeGame", 3f); // Waits three seconds to call InitializeGame()
         hbToToggle.SetActive(false);
     }
 
     private void LoseReturn() {
         roomToToggle.SetActive(true);
         Debug.Log("lost hb");
+        Invoke("InitializeGame", 3f); // Waits three seconds to call InitializeGame()
         hbToToggle.SetActive(false);
     }
 
