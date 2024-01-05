@@ -6,8 +6,14 @@ public class DialogueTrigger : MonoBehaviour
 {
   public Dialogue dialogue;
 
+  public bool doHangBear = false;
+
   public void OnMouseDown ()
   {
-    FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
+    DialogueManager mngr = FindObjectOfType<DialogueManager>();
+    if (mngr != null) {
+      mngr.StartDialogue(dialogue);
+      mngr.addHB(doHangBear);
+    }
   }
 }
