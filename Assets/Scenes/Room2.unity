@@ -207,6 +207,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 886464193}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &53668341 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6406585187692120073, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
+  m_PrefabInstance: {fileID: 578294955}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &82022932 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6406585187692120073, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
+  m_PrefabInstance: {fileID: 1736573998}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &101350510 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6406585187692120073, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
+  m_PrefabInstance: {fileID: 644267274}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &246328107
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -310,175 +325,21 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8999125143189536149, guid: 26bc968192464453a8d980dbe4a1623c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 872657617}
   m_SourcePrefab: {fileID: 100100000, guid: 26bc968192464453a8d980dbe4a1623c, type: 3}
 --- !u!4 &246328108 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1466177943391402248, guid: 26bc968192464453a8d980dbe4a1623c, type: 3}
   m_PrefabInstance: {fileID: 246328107}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &274372920
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 886464193}
-    m_Modifications:
-    - target: {fileID: 4168578253901472384, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
-      propertyPath: m_SpriteTilingProperty.border.w
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4168578253901472384, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
-      propertyPath: m_SpriteTilingProperty.border.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4168578253901472384, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
-      propertyPath: m_SpriteTilingProperty.border.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4168578253901472384, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
-      propertyPath: m_SpriteTilingProperty.border.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4168578253901472384, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
-      propertyPath: m_SpriteTilingProperty.newSize.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4168578253901472384, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
-      propertyPath: m_SpriteTilingProperty.newSize.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4168578253901472384, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
-      propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4168578253901472384, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
-      propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4194227830720017733, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 4.14
-      objectReference: {fileID: 0}
-    - target: {fileID: 4194227830720017733, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -7.36
-      objectReference: {fileID: 0}
-    - target: {fileID: 4194227830720017733, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.023652066
-      objectReference: {fileID: 0}
-    - target: {fileID: 4194227830720017733, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4194227830720017733, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4194227830720017733, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4194227830720017733, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4194227830720017733, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4194227830720017733, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4194227830720017733, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6406585187692120073, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
-      propertyPath: m_Name
-      value: ClickableObj
-      objectReference: {fileID: 0}
-    - target: {fileID: 8103306433107072460, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
-      propertyPath: my_go
-      value: 
-      objectReference: {fileID: 1591175042}
-    - target: {fileID: 8190167005292423058, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
-      propertyPath: objectName
-      value: pillow
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 6406585187692120073, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 274372923}
-  m_SourcePrefab: {fileID: 100100000, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
---- !u!4 &274372921 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4194227830720017733, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
-  m_PrefabInstance: {fileID: 274372920}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &274372922 stripped
+--- !u!1 &296732115 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6406585187692120073, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
-  m_PrefabInstance: {fileID: 274372920}
+  m_PrefabInstance: {fileID: 1725558879}
   m_PrefabAsset: {fileID: 0}
---- !u!212 &274372923
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 274372922}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1001 &347273679
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -945,7 +806,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6406585187692120073, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1452150002}
   m_SourcePrefab: {fileID: 100100000, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
 --- !u!1001 &503850642
 PrefabInstance:
@@ -1195,7 +1059,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6406585187692120073, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 841418767}
   m_SourcePrefab: {fileID: 100100000, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
 --- !u!1001 &582279290
 PrefabInstance:
@@ -1435,13 +1302,32 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6406585187692120073, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 644267280}
   m_SourcePrefab: {fileID: 100100000, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
 --- !u!4 &644267275 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4194227830720017733, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
   m_PrefabInstance: {fileID: 644267274}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &644267280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 101350510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bab0fcc8e708b4eba92ab75a96e25593, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: Aurora
+    sentences:
+    - The cabinets are locked. I need a key to access this cabinet.
 --- !u!4 &646552526 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4194227830720017733, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
@@ -1755,13 +1641,33 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6406585187692120073, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1545400234}
   m_SourcePrefab: {fileID: 100100000, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
 --- !u!4 &841418766 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4194227830720017733, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
   m_PrefabInstance: {fileID: 578294955}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &841418767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 53668341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bab0fcc8e708b4eba92ab75a96e25593, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: Aurora
+    sentences:
+    - "Hmmm\u2026 fruit\u2026 There are 4 apples on this plate."
+    - "Wait\u2026 these fruits are fake\u2026"
 --- !u!1 &869808155
 GameObject:
   m_ObjectHideFlags: 0
@@ -1898,6 +1804,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 869808155}
   m_CullTransparentMesh: 1
+--- !u!1 &872657616 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8999125143189536149, guid: 26bc968192464453a8d980dbe4a1623c, type: 3}
+  m_PrefabInstance: {fileID: 246328107}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &872657617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 872657616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bab0fcc8e708b4eba92ab75a96e25593, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: Aurora
+    sentences:
+    - It looks like it's locked.
+    - "There has to be a key somewhere around here\u2026"
 --- !u!1 &886464192
 GameObject:
   m_ObjectHideFlags: 0
@@ -1927,7 +1855,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 274372921}
   - {fileID: 1591175043}
   - {fileID: 477342025}
   - {fileID: 46645124}
@@ -1945,6 +1872,7 @@ Transform:
   - {fileID: 644267275}
   - {fileID: 1725558880}
   - {fileID: 646552526}
+  - {fileID: 1921404775}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &887299109
@@ -2308,9 +2236,49 @@ PrefabInstance:
       value: HoverManager
       objectReference: {fileID: 0}
     - target: {fileID: 5930396700679989135, guid: 144f2a9f48416429ca60ff05a8b286c3, type: 3}
+      propertyPath: ObjList.Array.size
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5930396700679989135, guid: 144f2a9f48416429ca60ff05a8b286c3, type: 3}
       propertyPath: ObjList.Array.data[0]
       value: 
-      objectReference: {fileID: 274372922}
+      objectReference: {fileID: 872657616}
+    - target: {fileID: 5930396700679989135, guid: 144f2a9f48416429ca60ff05a8b286c3, type: 3}
+      propertyPath: ObjList.Array.data[1]
+      value: 
+      objectReference: {fileID: 1794775587}
+    - target: {fileID: 5930396700679989135, guid: 144f2a9f48416429ca60ff05a8b286c3, type: 3}
+      propertyPath: ObjList.Array.data[2]
+      value: 
+      objectReference: {fileID: 1452150001}
+    - target: {fileID: 5930396700679989135, guid: 144f2a9f48416429ca60ff05a8b286c3, type: 3}
+      propertyPath: ObjList.Array.data[3]
+      value: 
+      objectReference: {fileID: 53668341}
+    - target: {fileID: 5930396700679989135, guid: 144f2a9f48416429ca60ff05a8b286c3, type: 3}
+      propertyPath: ObjList.Array.data[4]
+      value: 
+      objectReference: {fileID: 1545400229}
+    - target: {fileID: 5930396700679989135, guid: 144f2a9f48416429ca60ff05a8b286c3, type: 3}
+      propertyPath: ObjList.Array.data[5]
+      value: 
+      objectReference: {fileID: 82022932}
+    - target: {fileID: 5930396700679989135, guid: 144f2a9f48416429ca60ff05a8b286c3, type: 3}
+      propertyPath: ObjList.Array.data[6]
+      value: 
+      objectReference: {fileID: 101350510}
+    - target: {fileID: 5930396700679989135, guid: 144f2a9f48416429ca60ff05a8b286c3, type: 3}
+      propertyPath: ObjList.Array.data[7]
+      value: 
+      objectReference: {fileID: 296732115}
+    - target: {fileID: 5930396700679989135, guid: 144f2a9f48416429ca60ff05a8b286c3, type: 3}
+      propertyPath: ObjList.Array.data[8]
+      value: 
+      objectReference: {fileID: 1500828723}
+    - target: {fileID: 5930396700679989135, guid: 144f2a9f48416429ca60ff05a8b286c3, type: 3}
+      propertyPath: ObjList.Array.data[9]
+      value: 
+      objectReference: {fileID: 1921404770}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2321,6 +2289,27 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4194227830720017733, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
   m_PrefabInstance: {fileID: 827447070}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1452150001 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6406585187692120073, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
+  m_PrefabInstance: {fileID: 489610973}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1452150002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1452150001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bab0fcc8e708b4eba92ab75a96e25593, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: Aurora
+    sentences:
+    - That is a chair.
 --- !u!1 &1478547162
 GameObject:
   m_ObjectHideFlags: 0
@@ -2389,6 +2378,48 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1500828723 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6406585187692120073, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
+  m_PrefabInstance: {fileID: 1902376000}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1500828728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1500828723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bab0fcc8e708b4eba92ab75a96e25593, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: Aurora
+    sentences:
+    - What is this chest doing at the top of the cabinets?
+--- !u!1 &1545400229 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6406585187692120073, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
+  m_PrefabInstance: {fileID: 827447070}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1545400234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1545400229}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bab0fcc8e708b4eba92ab75a96e25593, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: Aurora
+    sentences:
+    - I cannot reach the counter, because I am a baby polar bear.
 --- !u!1 &1548189501
 GameObject:
   m_ObjectHideFlags: 0
@@ -3110,13 +3141,32 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6406585187692120073, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1725558881}
   m_SourcePrefab: {fileID: 100100000, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
 --- !u!4 &1725558880 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4194227830720017733, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
   m_PrefabInstance: {fileID: 1725558879}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1725558881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 296732115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bab0fcc8e708b4eba92ab75a96e25593, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: Aurora
+    sentences:
+    - "There are three papers here. I wonder what they\u2019re for."
 --- !u!1001 &1736573998
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3252,7 +3302,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6406585187692120073, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2071439667}
   m_SourcePrefab: {fileID: 100100000, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
 --- !u!1001 &1794775586
 PrefabInstance:
@@ -3518,15 +3571,44 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6406585187692120073, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1500828728}
   m_SourcePrefab: {fileID: 100100000, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
+--- !u!1 &1921404770 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6406585187692120073, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
+  m_PrefabInstance: {fileID: 1994059458}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1921404775 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4194227830720017733, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
+  m_PrefabInstance: {fileID: 1994059458}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1921404776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1921404770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bab0fcc8e708b4eba92ab75a96e25593, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: Aurora
+    sentences:
+    - Nice! Now I can reach the counter.
 --- !u!1001 &1994059458
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 886464193}
     m_Modifications:
     - target: {fileID: -8717462600197914229, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
       propertyPath: m_Size.x
@@ -3606,15 +3688,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4194227830720017733, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.1359
+      value: 3.1641903
       objectReference: {fileID: 0}
     - target: {fileID: 4194227830720017733, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.4148
+      value: -3.2500768
       objectReference: {fileID: 0}
     - target: {fileID: 4194227830720017733, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.0237
+      value: -0.047352068
       objectReference: {fileID: 0}
     - target: {fileID: 4194227830720017733, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3622,15 +3704,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4194227830720017733, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4194227830720017733, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4194227830720017733, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4194227830720017733, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3651,13 +3733,33 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6406585187692120073, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1921404776}
   m_SourcePrefab: {fileID: 100100000, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
 --- !u!4 &2071439662 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4194227830720017733, guid: 99e3082895c25420e8a2f28f07d7b415, type: 3}
   m_PrefabInstance: {fileID: 1736573998}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2071439667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 82022932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bab0fcc8e708b4eba92ab75a96e25593, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: Aurora
+    sentences:
+    - "I\u2019m getting kind of hungry\u2026 What's in here?"
+    - "Woah there\u2019s real fruit here!"
 --- !u!1001 &2104143734
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3733,4 +3835,3 @@ SceneRoots:
   - {fileID: 1557052722}
   - {fileID: 503850642}
   - {fileID: 1353846420}
-  - {fileID: 1994059458}

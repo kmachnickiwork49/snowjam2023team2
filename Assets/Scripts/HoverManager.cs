@@ -7,17 +7,14 @@ public class HoverManager : MonoBehaviour
     [SerializeField] private GameObject[] ObjList;
     private ShowZoomedImage[] ZoomList;
 
-    public bool isHoverable;
+    public bool isHoverable = true;
 
     void Start(){
+        isHoverable = true;
         // for(int i = 0; i < ObjList.Length; i++){
         //     ZoomList[i] = ObjList[i].GetComponent<ShowZoomedImage>();
         // }
     }
     void Update(){
-        for(int i = 0; i < ObjList.Length; i++){
-            if(ObjList[i].GetComponent<ShowZoomedImage>().go_object.activeSelf) isHoverable = false;
-            else isHoverable = true;
-        }
     }
 }
